@@ -7,65 +7,66 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     html { scroll-behavior: smooth; }
+    body {
+      background: linear-gradient(180deg, #111827 0%, #020617 100%);
+    }
   </style>
 </head>
-<body class="bg-gray-50 text-gray-900 font-sans leading-relaxed">
+<body class="text-gray-200 font-sans leading-relaxed">
 
 <!-- Top Bar -->
 <div class="flex justify-between items-center px-12 py-6 max-w-7xl mx-auto">
-  <h1 class="text-2xl font-semibold tracking-tight">Chiranjeev Singh</h1>
+  <h1 class="text-2xl font-semibold tracking-tight text-white">Chiranjeev Singh</h1>
   <div class="flex gap-4">
-    <a href="/resume.pdf" download class="border border-gray-300 px-5 py-2 rounded-2xl hover:bg-black hover:text-white transition-all">Download Resume</a>
-    <a href="https://www.linkedin.com/in/chiranjeevsingh01" target="_blank" class="bg-black text-white px-5 py-2 rounded-2xl hover:scale-105 transition-all shadow">Connect on LinkedIn</a>
+    <a href="/resume.pdf" download class="border border-gray-600 px-5 py-2 rounded-2xl hover:bg-white hover:text-black transition-all">Download Resume</a>
+    <a href="https://www.linkedin.com/in/chiranjeevsingh01" target="_blank" class="bg-white text-black px-5 py-2 rounded-2xl hover:scale-105 transition-all shadow">Connect on LinkedIn</a>
   </div>
 </div>
 
 <!-- Sticky CTA -->
 <div class="fixed bottom-6 right-6 z-50">
-  <a href="#contact" class="bg-black text-white px-6 py-3 rounded-2xl shadow-2xl hover:scale-105 transition">Schedule Discussion</a>
+  <a href="#contact" class="bg-white text-black px-6 py-3 rounded-2xl shadow-2xl hover:scale-105 transition">Schedule Discussion</a>
 </div>
 
 <!-- Hero -->
-<section class="px-12 py-20 max-w-7xl mx-auto">
-  <h1 class="text-5xl font-bold leading-tight tracking-tight max-w-4xl">
+<section class="px-12 py-20 max-w-7xl mx-auto bg-gray-900/60 backdrop-blur-lg rounded-2xl shadow">
+  <h1 class="text-5xl font-bold leading-tight tracking-tight max-w-4xl text-white">
     Driving Enterprise Delivery, AI Transformation & Scaled Agile Execution
   </h1>
-  <p class="mt-6 text-xl text-gray-600 max-w-3xl">
+  <p class="mt-6 text-xl text-gray-300 max-w-3xl">
     18+ years of leadership experience managing multi-million-dollar programs, transforming underperforming portfolios, and enabling AI-driven delivery excellence across global telecom and enterprise ecosystems.
   </p>
 
   <div class="mt-12 grid grid-cols-3 gap-8 text-center">
-    <div class="bg-white p-6 rounded-2xl shadow-sm">
-      <h2 class="text-3xl font-bold">$1M+</h2>
-      <p class="text-gray-500 mt-1">Cost Optimization Delivered</p>
+    <div class="bg-gray-800 p-6 rounded-2xl shadow">
+      <h2 class="text-3xl font-bold text-white">$1M+</h2>
+      <p class="text-gray-400 mt-1">Cost Optimization Delivered</p>
     </div>
-    <div class="bg-white p-6 rounded-2xl shadow-sm">
-      <h2 class="text-3xl font-bold">40%+</h2>
-      <p class="text-gray-500 mt-1">Release Velocity Improvement</p>
+    <div class="bg-gray-800 p-6 rounded-2xl shadow">
+      <h2 class="text-3xl font-bold text-white">40%+</h2>
+      <p class="text-gray-400 mt-1">Release Velocity Improvement</p>
     </div>
-    <div class="bg-white p-6 rounded-2xl shadow-sm">
-      <h2 class="text-3xl font-bold">30+</h2>
-      <p class="text-gray-500 mt-1">Teams Scaled via SAFe</p>
+    <div class="bg-gray-800 p-6 rounded-2xl shadow">
+      <h2 class="text-3xl font-bold text-white">30+</h2>
+      <p class="text-gray-400 mt-1">Teams Scaled via SAFe</p>
     </div>
   </div>
 </section>
 
 <!-- Clients -->
-<section class="py-14 bg-white border-y">
-  <div class="max-w-7xl mx-auto px-12">
-    <h2 class="text-2xl font-semibold mb-6">Clients & Brands Worked With</h2>
-    <div class="flex gap-12 text-lg text-gray-700 tracking-wide">
-      <span>Cisco</span>
-      <span>Frontier Communications</span>
-      <span>Tech Mahindra (Global Telecom Programs)</span>
-    </div>
+<section class="py-14 mt-10 bg-gray-900/60 backdrop-blur-lg rounded-2xl shadow max-w-7xl mx-auto px-12">
+  <h2 class="text-2xl font-semibold mb-6 text-white">Clients & Brands Worked With</h2>
+  <div class="flex gap-12 text-lg text-gray-300 tracking-wide">
+    <span>Cisco</span>
+    <span>Frontier Communications</span>
+    <span>Tech Mahindra (Global Telecom Programs)</span>
   </div>
 </section>
 
 <!-- What I Bring -->
-<section class="py-20 px-12 max-w-7xl mx-auto">
-  <h2 class="text-3xl font-semibold mb-10">What I Bring as a Delivery Leader</h2>
-  <div class="grid grid-cols-2 gap-10 text-gray-700">
+<section class="py-20 px-12 max-w-7xl mx-auto bg-gray-900/60 backdrop-blur-lg rounded-2xl shadow mt-10">
+  <h2 class="text-3xl font-semibold mb-10 text-white">What I Bring as a Delivery Leader</h2>
+  <div class="grid grid-cols-2 gap-10 text-gray-300">
     <p>End-to-end ownership of enterprise delivery portfolios including governance, financial oversight, stakeholder alignment, and execution strategy.</p>
     <p>Proven ability to turn around failing programs, optimize cost structures, and deliver predictable, high-quality outcomes at scale.</p>
     <p>Deep expertise in Agile transformation (SAFe), DevOps implementation, and AI-driven delivery optimization.</p>
@@ -74,55 +75,50 @@
 </section>
 
 <!-- Case Studies -->
-<section class="py-20 px-12 bg-white border-y">
-  <div class="max-w-7xl mx-auto">
-    <h2 class="text-3xl font-semibold mb-12">Case Studies</h2>
-    <div class="space-y-10">
+<section class="py-20 px-12 max-w-7xl mx-auto bg-gray-900/60 backdrop-blur-lg rounded-2xl shadow mt-10">
+  <h2 class="text-3xl font-semibold mb-12 text-white">Case Studies</h2>
+  <div class="space-y-10">
+    <div class="bg-gray-800 p-6 rounded-2xl shadow border-l-4 border-white">
+      <h3 class="text-xl font-bold mb-2 text-white">Enterprise Agile Transformation</h3>
+      <p><strong>Problem:</strong> Fragmented delivery across 30+ teams causing delays.</p>
+      <p><strong>Action:</strong> Implemented SAFe & PI planning.</p>
+      <p><strong>Impact:</strong> 35% predictability increase, 40% delay reduction.</p>
+    </div>
 
-      <div class="bg-gray-50 p-6 rounded-2xl shadow-sm border-l-4 border-black">
-        <h3 class="text-xl font-bold mb-2">Enterprise Agile Transformation</h3>
-        <p><strong>Problem:</strong> Fragmented delivery across 30+ teams causing delays.</p>
-        <p><strong>Action:</strong> Implemented SAFe & PI planning.</p>
-        <p><strong>Impact:</strong> 35% predictability increase, 40% delay reduction.</p>
-      </div>
+    <div class="bg-gray-800 p-6 rounded-2xl shadow border-l-4 border-white">
+      <h3 class="text-xl font-bold mb-2 text-white">DevOps Transformation</h3>
+      <p><strong>Problem:</strong> Manual deployments.</p>
+      <p><strong>Action:</strong> CI/CD automation.</p>
+      <p><strong>Impact:</strong> 50% faster deployments.</p>
+    </div>
 
-      <div class="bg-gray-50 p-6 rounded-2xl shadow-sm border-l-4 border-black">
-        <h3 class="text-xl font-bold mb-2">DevOps Transformation</h3>
-        <p><strong>Problem:</strong> Manual deployments.</p>
-        <p><strong>Action:</strong> CI/CD automation.</p>
-        <p><strong>Impact:</strong> 50% faster deployments.</p>
-      </div>
+    <div class="bg-gray-800 p-6 rounded-2xl shadow border-l-4 border-white">
+      <h3 class="text-xl font-bold mb-2 text-white">AI-Driven Governance</h3>
+      <p><strong>Problem:</strong> No predictive insights.</p>
+      <p><strong>Action:</strong> AI dashboards + GenAI reporting.</p>
+      <p><strong>Impact:</strong> 30% incident reduction.</p>
+    </div>
 
-      <div class="bg-gray-50 p-6 rounded-2xl shadow-sm border-l-4 border-black">
-        <h3 class="text-xl font-bold mb-2">AI-Driven Governance</h3>
-        <p><strong>Problem:</strong> No predictive insights.</p>
-        <p><strong>Action:</strong> AI dashboards + GenAI reporting.</p>
-        <p><strong>Impact:</strong> 30% incident reduction.</p>
-      </div>
-
-      <div class="bg-gray-50 p-6 rounded-2xl shadow-sm border-l-4 border-black">
-        <h3 class="text-xl font-bold mb-2">Program Turnaround</h3>
-        <p><strong>Problem:</strong> Cost overrun program.</p>
-        <p><strong>Action:</strong> Delivery restructuring.</p>
-        <p><strong>Impact:</strong> $1M+ savings.</p>
-      </div>
-
+    <div class="bg-gray-800 p-6 rounded-2xl shadow border-l-4 border-white">
+      <h3 class="text-xl font-bold mb-2 text-white">Program Turnaround</h3>
+      <p><strong>Problem:</strong> Cost overrun program.</p>
+      <p><strong>Action:</strong> Delivery restructuring.</p>
+      <p><strong>Impact:</strong> $1M+ savings.</p>
     </div>
   </div>
 </section>
 
 <!-- Dashboard -->
-<section class="py-20 px-12 max-w-7xl mx-auto">
-  <h2 class="text-3xl font-semibold mb-10">Delivery Impact Dashboard</h2>
+<section class="py-20 px-12 max-w-7xl mx-auto bg-gray-900/60 backdrop-blur-lg rounded-2xl shadow mt-10">
+  <h2 class="text-3xl font-semibold mb-10 text-white">Delivery Impact Dashboard</h2>
   <div class="space-y-8">
-
     <div>
       <div class="flex justify-between mb-2">
         <span>Release Velocity Improvement</span>
         <span>40%</span>
       </div>
-      <div class="w-full bg-gray-200 h-3 rounded-full">
-        <div class="bg-black h-3 rounded-full" style="width: 40%"></div>
+      <div class="w-full bg-gray-700 h-3 rounded-full">
+        <div class="bg-white h-3 rounded-full" style="width: 40%"></div>
       </div>
     </div>
 
@@ -131,8 +127,8 @@
         <span>Cost Optimization Achieved</span>
         <span>$1M+</span>
       </div>
-      <div class="w-full bg-gray-200 h-3 rounded-full">
-        <div class="bg-black h-3 rounded-full" style="width: 70%"></div>
+      <div class="w-full bg-gray-700 h-3 rounded-full">
+        <div class="bg-white h-3 rounded-full" style="width: 70%"></div>
       </div>
     </div>
 
@@ -141,32 +137,29 @@
         <span>MTTR Reduction</span>
         <span>25%</span>
       </div>
-      <div class="w-full bg-gray-200 h-3 rounded-full">
-        <div class="bg-black h-3 rounded-full" style="width: 25%"></div>
+      <div class="w-full bg-gray-700 h-3 rounded-full">
+        <div class="bg-white h-3 rounded-full" style="width: 25%"></div>
       </div>
     </div>
-
   </div>
 </section>
 
 <!-- AI Playbook -->
-<section class="py-20 px-12 bg-white border-y">
-  <div class="max-w-7xl mx-auto">
-    <h2 class="text-3xl font-semibold mb-10">AI Transformation Playbook</h2>
-    <div class="space-y-5 text-lg text-gray-700 max-w-4xl">
-      <p><strong>Step 1:</strong> Identified delivery bottlenecks using historical defect and incident data.</p>
-      <p><strong>Step 2:</strong> Built predictive analytics models (Power BI + ML) for risk and defect forecasting.</p>
-      <p><strong>Step 3:</strong> Implemented GenAI-based automated reporting for governance and stakeholder updates.</p>
-      <p><strong>Step 4:</strong> Integrated AI insights into daily delivery reviews and leadership dashboards.</p>
-      <p><strong>Step 5:</strong> Reduced manual effort, improved decision-making speed, and enhanced delivery predictability.</p>
-    </div>
+<section class="py-20 px-12 max-w-7xl mx-auto bg-gray-900/60 backdrop-blur-lg rounded-2xl shadow mt-10">
+  <h2 class="text-3xl font-semibold mb-10 text-white">AI Transformation Playbook</h2>
+  <div class="space-y-5 text-lg text-gray-300 max-w-4xl">
+    <p><strong>Step 1:</strong> Identified delivery bottlenecks using historical defect and incident data.</p>
+    <p><strong>Step 2:</strong> Built predictive analytics models (Power BI + ML) for risk and defect forecasting.</p>
+    <p><strong>Step 3:</strong> Implemented GenAI-based automated reporting for governance and stakeholder updates.</p>
+    <p><strong>Step 4:</strong> Integrated AI insights into daily delivery reviews and leadership dashboards.</p>
+    <p><strong>Step 5:</strong> Reduced manual effort, improved decision-making speed, and enhanced delivery predictability.</p>
   </div>
 </section>
 
 <!-- Philosophy -->
-<section class="py-20 px-12 max-w-7xl mx-auto">
-  <h2 class="text-3xl font-semibold mb-10">Leadership Philosophy</h2>
-  <div class="space-y-4 text-xl max-w-3xl">
+<section class="py-20 px-12 max-w-7xl mx-auto bg-gray-900/60 backdrop-blur-lg rounded-2xl shadow mt-10">
+  <h2 class="text-3xl font-semibold mb-10 text-white">Leadership Philosophy</h2>
+  <div class="space-y-4 text-xl max-w-3xl text-gray-300">
     <p>• Execution without visibility is risk — data-driven delivery is non-negotiable.</p>
     <p>• Strong governance enables speed, not slows it down.</p>
     <p>• High-performing teams are built on clarity, accountability, and autonomy.</p>
@@ -176,10 +169,10 @@
 </section>
 
 <!-- Testimonials -->
-<section class="py-20 px-12 bg-white border-y">
+<section class="py-20 px-12 max-w-7xl mx-auto bg-gray-900/60 backdrop-blur-lg rounded-2xl shadow mt-10">
   <div class="max-w-5xl mx-auto text-center">
-    <h2 class="text-3xl font-semibold mb-10">Leadership Impact</h2>
-    <div class="space-y-6 text-lg text-gray-700">
+    <h2 class="text-3xl font-semibold mb-10 text-white">Leadership Impact</h2>
+    <div class="space-y-6 text-lg text-gray-300">
       <p>“Consistently brings structure, clarity, and predictability to complex delivery programs.”</p>
       <p>“Strong leader who transforms struggling programs into high-performing delivery engines.”</p>
       <p>“Exceptional ability to align stakeholders and drive execution at scale.”</p>
@@ -188,11 +181,11 @@
 </section>
 
 <!-- Contact -->
-<section id="contact" class="bg-black text-white py-20 px-12 text-center">
+<section id="contact" class="bg-white text-black py-20 px-12 text-center mt-10 rounded-t-2xl">
   <h2 class="text-3xl font-semibold">Let’s Discuss Leadership Opportunities</h2>
-  <p class="mt-4 text-gray-300">Open to Director / Delivery Head / AVP roles</p>
+  <p class="mt-4 text-gray-600">Open to Director / Delivery Head / AVP roles</p>
   <p class="mt-6">chiranjeevsingh01@gmail.com | +91-9888098009</p>
-  <a href="https://www.linkedin.com/in/chiranjeevsingh01" target="_blank" class="inline-block mt-6 bg-white text-black px-6 py-3 rounded-2xl">Connect on LinkedIn</a>
+  <a href="https://www.linkedin.com/in/chiranjeevsingh01" target="_blank" class="inline-block mt-6 bg-black text-white px-6 py-3 rounded-2xl">Connect on LinkedIn</a>
 </section>
 
 </body>
